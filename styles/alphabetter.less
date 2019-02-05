@@ -1,0 +1,43 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.alphabetter {
+  
+  &.inline-block:hover {
+    background: inherit!important;
+  }
+  
+  .icon {
+    margin: 0 0.3rem;
+    color: @text-color-subtle;
+    &:hover {
+      color: @text-color-highlight;
+    }
+  }
+  .icon.active {
+    color: @text-color-warning;
+  }
+}
+
+// Force text direction
+atom-text-editor.editor.force-ltr .line {
+  direction: ltr;
+  unicode-bidi: bidi-override;
+}
+
+// Separate unjoined Arabic characters
+.unjoin-characters {
+  margin: 0 0.2rem;
+}
+
+// Highlight hidden characters
+.highlight-hidden-characters {
+  background-color: fadeout(@text-color-error, 70%);
+  border: 1px solid fadeout(@text-color-error, 60%);
+  display: inline-block;
+  min-width: 0.5rem;
+}
+

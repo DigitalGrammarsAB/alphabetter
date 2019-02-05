@@ -1,0 +1,22 @@
+{
+  "name": "alphabetter",
+  "main": "./lib/alphabetter",
+  "version": "1.0.0",
+  "description": "Make working with different alphabets better.",
+  "keywords": [
+  ],
+  "activationCommands": {
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

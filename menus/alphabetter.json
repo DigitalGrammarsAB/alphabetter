@@ -1,0 +1,65 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle force LTR",
+        "command": "alphabetter:toggle-force-ltr"
+      },
+      {
+        "label": "Toggle unjoining characters",
+        "command": "alphabetter:toggle-unjoin-characters"
+      },
+      {
+        "label": "Toggle highlighting hidden characters",
+        "command": "alphabetter:toggle-highlight-hidden-characters"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "alphabetter",
+          "submenu": [
+            {
+              "label": "Toggle force LTR",
+              "command": "alphabetter:toggle-force-ltr"
+            },
+            {
+              "label": "Toggle unjoining characters",
+              "command": "alphabetter:toggle-unjoin-characters"
+            },
+            {
+              "label": "Toggle highlighting hidden characters",
+              "command": "alphabetter:toggle-highlight-hidden-characters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "View",
+      "submenu": [
+        {
+          "type": "separator"
+        },
+        {
+          "label": "Toggle force LTR",
+          "command": "alphabetter:toggle-force-ltr"
+        },
+        {
+          "label": "Toggle unjoining characters",
+          "command": "alphabetter:toggle-unjoin-characters"
+        },
+        {
+          "label": "Toggle highlighting hidden characters",
+          "command": "alphabetter:toggle-highlight-hidden-characters"
+        },
+        {
+          "type": "separator"
+        }
+      ]
+    }
+  ]
+}

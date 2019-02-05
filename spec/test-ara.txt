@@ -1,0 +1,8 @@
+
+  punct : {isQuestion : Bool} -> Str = \p -> case p.isQuestion of {True => "؟‎" ; False => "."} ;
+
+There is a U+200E hidden: "؟<U+200E>"
+
+thanksGreeting = strUtt "مرسی‌" ;
+
+And there is a U+200C: "مرسی<U+200C>" ;
