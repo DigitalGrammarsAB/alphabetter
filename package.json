@@ -3,7 +3,7 @@
   "author": "John J. Camilleri",
   "repository": "https://github.com/DigitalGrammarsAB/alphabetter",
   "main": "./lib/alphabetter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Make working with different alphabets better.",
   "keywords": [
   ],
