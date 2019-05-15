@@ -1,9 +1,8 @@
-'use babel';
+'use babel'
+/* eslint-disable no-undef */
 
-import AlphabetterView from '../lib/alphabetter-view';
+// import AlphabetterView from '../lib/alphabetter-view'
 
 describe('AlphabetterView', () => {
-  it('has one valid test', () => {
-    expect('life').toBe('easy');
-  });
-});
+
+})
